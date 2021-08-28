@@ -14,9 +14,28 @@ let languages = [
     "TypeScript",
     "Swift"
   ];
-const sortierung= languages.sort();
-console.log(sortierung);
+//  languages.sort();
+//  console.log(languages);
+
+ function sortierung(array) {
+   languages.sort();
+ }
+ const returnValue = sortierung(languages);
+ console.log(returnValue);
+ console.log(languages);
+
+
 
 console.log('');
 console.log('');
 console.log("lev1_2: Array reverse()");
+
+const sortierung2 = languages
+.sort()
+.reverse();
+console.log(sortierung2);
+
+console.log('');
+console.log('');
+console.log("lev1_13: Arrays join()");
+  
