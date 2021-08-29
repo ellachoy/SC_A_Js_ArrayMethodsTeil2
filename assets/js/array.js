@@ -74,9 +74,43 @@ console.log(join4);
   console.log(join4);
 }
 
+console.log('');
+console.log('');
+console.log("lev2_2: sort() bigger numbers");
+
+let numArray2 = [36, 324, 122, 62, 98, 88, 99, 1000];
+
+const result= numArray2.sort((a,b)=> {
+  return a-b
+});
+console.log(result);
+
+console.log('');
+console.log('');
+console.log("lev3_1: Reverse Name, Words");
+
+// const words= ['Michal', 'Hannah','Regallager', 'Reliefpfeiler', 'Rentner','Ella mag alle Bohnen','Hanne sah Hasen nah', 'Nie solo sein'];
+const word2=new Array();
+word2[0]='Michal';
+word2[1]='Hannah';
+word2[2]='Regallager';
+word2[3]='Reliefpfeiler';
+word2[4]='Rentner';
+word2[5]='Ella mag alle Bohnen';
+word2[6]='Hanne sah Hasen nah';
+word2[7]='Nie solo sein';
+
+
+{
+  console.log(word2);
+
+  const result= word2
+  .join()
+  // .sort((a,b) =>a-b)
+  // .reverse();
+  console.log(result);
+  
 
 
 
-
-
-
+}
