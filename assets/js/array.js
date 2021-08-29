@@ -111,6 +111,4 @@ word2[7]='Nie solo sein';
   console.log(result);
   
 
-
-
 }
