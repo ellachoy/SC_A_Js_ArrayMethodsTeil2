@@ -106,9 +106,8 @@ word2[7]='Nie solo sein';
 
   const result= word2
   .join()
-  // .sort((a,b) =>a-b)
+  // .sort()
   // .reverse();
   console.log(result);
-  
-
 }
+
